@@ -2,7 +2,7 @@
 
 Name:		python-expandvars
 Version:	1.0.0
-Release:	1
+Release:	2
 Summary:	Expand system variables Unix style
 URL:		https://pypi.org/project/expandvars/
 License:	MIT License
