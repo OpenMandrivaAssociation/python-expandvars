@@ -1,8 +1,8 @@
 %define module expandvars
 
 Name:		python-expandvars
-Version:	1.0.0
-Release:	2
+Version:	1.1.2
+Release:	1
 Summary:	Expand system variables Unix style
 URL:		https://pypi.org/project/expandvars/
 License:	MIT License
@@ -18,16 +18,6 @@ BuildRequires:	python%{pyver}dist(pip)
 
 %description
 Expand system variables Unix style
-
-
-%prep
-%autosetup -p1 -n %{module}-%{version}
-
-%build
-%py_build
-
-%install
-%py3_install
 
 %files
 %{python3_sitelib}/%{module}.py
